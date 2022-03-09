@@ -1,0 +1,213 @@
+/* ------------ youtube.com/CodeExplained ------------ */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url('/img/35.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    font-size: 62.5%;
+}
+.mainTitle{
+    width: 100%;
+    height: 10%;
+    font-size: 6.8rem;
+}
+.mainTitle h1{
+    font-size: 3.5rem;
+    color: aliceblue;
+    
+}
+
+/* ------------ container ------------ */
+.container{
+    padding:1.0rem;
+    width:38.0rem;
+    margin:0 auto;
+}
+
+/* ------------ header ------------ */
+.header{
+    width: 38.0rem;
+    height:20.0rem;
+    background-image: url('/img/36.jpg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: relative;
+}
+.clear{
+    width : 3.0rem;
+    height: 3.0rem;
+    position: absolute;
+    right:2.0rem;
+    top: 2.0rem;
+}
+.clear i{
+    font-size: 3.0rem;
+    color: #FFF;
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: .1rem .3rem .5rem #000;
+    transform: rotate(45deg);
+}
+#date{
+    position: absolute;
+    bottom: 1.0rem;
+    left: 1.0rem;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ content ------------ */
+.content{
+    width:38.0rem;
+    height: 35.0rem;
+    max-height:35.0rem;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:38.0rem;
+    height: 4.5rem;
+    min-height: 4.5rem;
+    position: relative;
+    border-bottom: .1rem solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 2.5rem;
+    padding-left:.5rem;
+    left:1.5rem;
+    top:1.0rem
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 2.0rem;
+    left:5.0rem;
+    top:.5rem;
+    background-color: #FFF;
+    max-width:28.5rem;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 2.5rem;
+    right:1.5rem;
+    top:1.0rem;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+/* ------------ add item ------------ */
+.add-to-do{
+    position: relative;
+    width: 36.0rem;
+    height:4.0rem;
+    background-color: #FFF;
+    padding: 1.0rem;
+    border-top: .1rem solid rgba(0,0,0,0.1);
+}
+.add-to-do i{
+    position: absolute;
+    font-size: 4.0rem;
+    color: #4162f6;
+}
+
+.add-to-do input{
+    position: absolute;
+    left: 5.0rem;
+    height: 3.5rem;
+    width: 31.0rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2.0rem;
+    padding-left:1.0rem;
+}
+.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.0rem;
+}
+.add-to-do input::-moz-placeholder { /* Firefox 19+ */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.0rem;
+}
+.add-to-do input:-ms-input-placeholder { /* IE 10+ */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.0rem;
+}
+.add-to-do input:-moz-placeholder { /* Firefox 18- */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.0rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:898px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:798px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:698px){
+    html{
+        font-size: 37%;
+    }
+     /* .lform{
+        margin-left:28%;
+    }  */
+}
+@media(max-width:500px){
+    html{
+        font-size: 32%;
+    }
+     /* .lform{
+        margin-left:24%;
+    } */
+} 
+@media(max-width:450px){
+    html{
+        font-size: 30%;
+    }
+     /* .lform{
+        margin-left:21%;
+      }  */
+    }
