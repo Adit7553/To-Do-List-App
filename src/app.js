@@ -8,7 +8,6 @@ const path = require("path")
 const bcrypt = require("bcrypt")
 const async = require("hbs/lib/async")
 const req = require("express/lib/request")
-const { redirect } = require("express/lib/response")
 const app = express();
 
 const PORT = process.env.PORT || 3000
